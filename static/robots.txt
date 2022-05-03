@@ -1,2 +1,1 @@
 user-agent: *
-sitemap: https://sveltekit-starter-one.vercel.app/
