@@ -30,11 +30,12 @@
     "allowJs": true,
     "checkJs": true,
     "types": [
-      "node",
-      "node-fetch",
-      "nprogress"
+      "node"
     ],
     "paths": {
+      "$lib": [
+        "src/lib"
+      ],
       "$lib/*": [
         "src/lib/*"
       ],
@@ -112,5 +113,6 @@
     "functions/*",
     "static/*",
     "scripts/*"
-  ]
+  ],
+  "extends": "./.svelte-kit/tsconfig.json"
 }
